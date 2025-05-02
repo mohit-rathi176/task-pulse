@@ -25,6 +25,7 @@ namespace TaskPulse.Service.Services
             var task = new Repository.Entities.Task
             {
                 Title = model.Title,
+                IsActive = true,
                 CreatedDate = now,
                 ModifiedDate = now
             };
